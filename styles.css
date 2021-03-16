@@ -27,6 +27,8 @@ body {
     width: 100px;
     height: 100px;
     position: relative;
+    transform: none;
+    transition: all 1s ease;
 }
 
 .box1 {
@@ -64,30 +66,23 @@ body {
 }
 
 .container:hover .box2 {
-    transition: all 1s ease;
     left: 0;
     transform: rotate(90deg);
 }
 
 .container:hover .box3 {
-    transition: all 1s ease;
     left: 0;
     transform: rotate(-90deg);
 }
 
 .container:hover .box4 {
-    transition: all 1s ease;
     right: 0;
     transform: rotate(-90deg);
 }
 
 .container:hover .box5 {
-    transition: all 1s ease;
     right: 0;
     transform: rotate(90deg);
-
-    /* transition: transform 1s ease;
-    transform: rotate(180deg) translate(-100px); */
 }
 
 .container-bonus {
@@ -105,6 +100,8 @@ body {
     width: 100px;
     height: 100px;
     position: relative;
+    transform: none;
+    transition: transform 1s ease;
 }
 
 .box10 {
@@ -166,29 +163,29 @@ body {
 }
 
 .container-bonus:hover .box11 {
-    transition: all 1s ease 0.5s;
+    /* transition: all 1s ease 0.5s; */
     transform: rotate(-180deg) translate(300px);
 }
 
 .container-bonus:hover .box12 {
-    transition: all 1s ease 0.5s;
+    /* transition: all 1s ease 0.5s; */
     transform: rotate(180deg) translate(300px);
 }
 
 .container-bonus:hover .box13 {
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
     left: 0;
     transform: rotate(-90deg);
 }
 
 .container-bonus:hover .box14 {
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
     left: 0;
     transform: rotate(90deg);
 }
 
 .container-bonus:hover .box15 {
-    transition: all 1s ease;
+    /* transition: all 1s ease; */
     right: 0;
     transform: rotate(90deg);
 }
@@ -200,11 +197,11 @@ body {
 }
 
 .container-bonus:hover .box17 {
-    transition: all 1s ease 0.5s;
+    /* transition: all 1s ease 0.5s; */
     transform: rotate(180deg) translate(-300px);
 }
 
 .container-bonus:hover .box18{
-    transition: all 1s ease 0.5s;
+    /* transition: all 1s ease 0.5s; */
     transform: rotate(-180deg) translate(-300px);
 } 
